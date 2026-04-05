@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
-    <link rel="icon" href="assets/icon.png" type="image/x-icon">
+    <link rel="icon" href="assets/profile.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/styles copy.css">
 </head>
@@ -12,24 +12,31 @@
 
     <!-- Navigation Bar -->
     <div class="navbar">
+        <div>
         <nav>
             <a href="#home">HOME</a>
             <a href="#about">ABOUT</a>
             <a href="#projects">PROJECTS</a>
             <a href="#contact">CONTACT</a>
-            <div class="menu-icon">
-                <i class="fas fa-bars"></i>
-            </div>
         </nav>
+        </div>
+        <div class="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
 
     </div>
     <div class="hero" id="home">
         <div class="hero-container">
+            <div class="tech-icon">
+                <i class="fas fa-code hero-code"></i>
+                <i class="fas fa-palette hero-design"></i>
+                <i class="fas fa-cogs hero-innovation"></i>
+            </div>
             <div class="hero-left">
                 <img src="assets/profile.png" alt="Profile Picture" class="hero-image">
             </div>
             <div class="hero-right">
-                <h1 class="name">AHAMED NASEEF SHARAF</h1>
+                <h1 class="name">MFA NASEEF SHARAF</h1>
                 <h2 class="subtitle">Turning Vision Into Reality With Code And Design.</h2>
                 <p class="hero-description">I'm a passionate computer engineer and graphic designer dedicated to creating innovative solutions that combine functionality with aesthetics. Let's build something amazing together!</p>
                 <div class="hero-buttons">
@@ -45,8 +52,8 @@
         <div class="about-section" id="about">
             <h1 class="about-heading">About Me</h1>
             <p class="about-text">
-                I am an engineering student at University of Peradeniya with a strong interest in technology and problem-solving.<br>
-                I enjoy exploring new ideas, building practical solutions, and continuously improving my skills. Alongside my technical side, I have a passion for nature photography and creativity. I'm driven by growth, ambition, and the goal of creating a successful future through dedication and hard work.
+                I'm an engineering student at the University of Peradeniya with a strong passion for technology, design, and problem-solving. I enjoy turning ideas into practical solutions through code while continuously exploring new tools and technologies.
+                Beyond development, I have a creative side driven by graphic design and nature photography, where I find inspiration and balance. I'm focused on growth, building meaningful projects, and shaping a future defined by innovation, creativity, and success.
             </p>
 
             <div class="skills-section" id="skills">
@@ -116,13 +123,13 @@
             <div class="project-card" style="--index: 1;">
                 <img src="assets/designshowcase.jpg" alt="Design Showcase" class="project-img">
                 <h3 class="project-name">Design Showcase</h3>
-                <p class="project-desc">A creative graphic design collection featuring branding and digital artwork.</p>
+                <p class="project-desc">A creative graphic design collection featuring branding and <br>digital artwork.</p>
                 <a href="#" class="project-link" target="_blank">View Project</a>
             </div>
             <div class="project-card" style="--index: 2;">
                 <img src="assets/web-app-prototype.png" alt="Web App Prototype" class="project-img">
                 <h3 class="project-name">Web App Prototype</h3>
-                <p class="project-desc">A modern web app prototype demonstrating UI/UX design and frontend interactivity.</p>
+                <p class="project-desc">A modern web app prototype demonstrating UI/UX design <br>and frontend interactivity.</p>
                 <a href="#" class="project-link" target="_blank">View Project</a>
             </div>
         </div>
@@ -188,6 +195,12 @@
 
     <div class="bottom-page">
         <p class="footer-text">© 2024 Ahamed Naseef Sharaf. All rights reserved.</p>
+        <nav class="footer-link">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+        </nav>
     </div>
 
     
