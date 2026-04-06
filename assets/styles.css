@@ -81,7 +81,6 @@ html, body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-
 }
 
 body {
@@ -152,6 +151,38 @@ body {
     color: #0e2f30;
     display: block;
     margin-left: 950px;
+}
+
+.search {
+    position: relative ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    z-index: 1000;
+    animation: fadeInUp 1s ease-out;
+}
+
+.search-input {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.search-button {
+    background-color: #0e5d5c;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #0a3736;
 }
 
 .hero {
